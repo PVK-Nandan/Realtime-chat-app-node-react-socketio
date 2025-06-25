@@ -4,11 +4,22 @@ A fully functional, real-time chat application built using **React**, **Node.js*
 It enables users to join a shared chatroom, exchange messages in real-time, see when others are typing, and receive system notifications when users join or leave.
 
 ---
-<p align="center">
-  <img src="./S/Chatapp.png" alt="Chat App Screenshot" width="700"/>
-  <br/><br/>
-  <img src="./Screenshots/Chatapp1.png" alt="Chat App Preview" width="700"/>
-</p>
+## 📸 Screenshots
+
+Here are a few screenshots of the real-time chat app in action:
+
+### 💬 Chat Interface  
+![Chat Screenshot](Screenshots/Chatapp.png)
+
+---
+
+### 📥 Message Sent & Received View  
+![Chat Received](Screenshots/Chatapp1.png)
+
+---
+
+### ✍️ Typing Indicator  
+![Typing Screenshot](Screenshots/Typing.png)
 
 ---
 
