@@ -568,3 +568,90 @@ body {
     height: 44px;
   }
 }
+/* Enhanced Chat Container */
+/* frontend/src/Chat.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Ensure proper alignment */
+.message-wrapper {
+  display: flex;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.message-wrapper.own {
+  justify-content: flex-end;
+}
+
+.message-wrapper.other {
+  justify-content: flex-start;
+}
+
+.message {
+  background: linear-gradient(135deg, #f7fafc, #edf2f7);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 16px 20px;
+  max-width: 80%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.message-wrapper.own .message {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  margin-left: auto;
+  margin-right: 0;
+  text-align: right;
+}
+
+.message-wrapper.other .message {
+  background: linear-gradient(135deg, #f7fafc, #edf2f7);
+  color: #2d3748;
+  margin-right: auto;
+  margin-left: 0;
+  text-align: left;
+}
+
+.message-content {
+  font-size: 15px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  margin-bottom: 8px;
+}
+
+.message-wrapper.own .message-content {
+  color: white;
+}
+
+.message-wrapper.other .message-content {
+  color: #2d3748;
+}
+
+.message-username {
+  font-size: 12px;
+  font-weight: 600;
+  color: #4a5568;
+}
+
+.message-wrapper.own .message-username,
+.message-wrapper.own .message-time {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.message-wrapper.other .message-username,
+.message-wrapper.other .message-time {
+  color: #718096;
+}
