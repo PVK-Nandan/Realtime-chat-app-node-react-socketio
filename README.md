@@ -269,7 +269,7 @@ For production:
 
 **Nandan Patnaik**  
 🎓 B.Tech CSE, Batch of 2026  
-🔗 [LinkedIn](https://www.linkedin.com/in/nandan-pakki-v-k-01639b253) or [Email](pakkinandan09@gmail.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/nandan-pakki-v-k-01639b253)
 
 ---
 
